@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+}
+
+.col {
+  flex: 1;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  max-width: 300px;
+  max-height: 300px;
+  border: 10px solid white;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+header {
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h3 {
+  font-weight: normal;
+  max-width: 85%;
+}
+
