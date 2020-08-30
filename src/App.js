@@ -18,9 +18,11 @@ class App extends Component {
     .then( response => response.json())
     .then(
       (result) => {
+        console.log(result);
         this.setState({
           isLoaded : true,
-          qod : result.contents.quotes[0].quote
+          qod : "\"" + result.contents.quotes[0].quote + "\" -"
+            + result.contents.quotes[0].author
         });
       }
     )
